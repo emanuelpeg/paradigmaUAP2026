@@ -1,0 +1,127 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "java-console-example",
+        "directory": "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example",
+        "workspaceDir": "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example",
+        "sources": [
+            "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example/src/main/java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example/target/classes"
+        ],
+        "out": "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example/target",
+        "classesDir": "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example/target/classes",
+        "resources": [
+            
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/emanuel/.sdkman/candidates/java/21.0.3-tem",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "/home/emanuel/Facultad/UAP/paradigma/2026/paradigmaUAP2026/objetos/ejemplos/java-console-example/target/classes"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "3.8.1",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/home/emanuel/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/home/emanuel/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

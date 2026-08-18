@@ -1,4 +1,3 @@
-
 # Ejercicio 1
 
 ## Descripción del Ejercicio
@@ -44,6 +43,7 @@ Realice un diseño que permita resolver dicho problema y permita saber si una pe
 # Ejercicio 5
 
 ## Descripción del Ejercicio
+
 La empresa CursoSys lo contrata para desarrollar un software que permita registrar el dictado de su curso. La empresa dicta un curso y tiene diferentes tipos de alumnos:
   a) Alumno invitado: es gratuito y aprueba el curso con una nota mayor a 60 en el examen.
   b) Alumno medio: el cual paga una suscripción y aprueba el curso con 3 exámenes los cuales tienen que tener un promedio mayor a 70.
@@ -54,4 +54,32 @@ El alumno tiene un código, nombre y apellido y las notas dependientes del tipo.
   b) Realice una función que liste los alumnos que aprobaron el curso
   c) La empresa necesita una funcionalidad que permita al usuario invitado cambiar a usuario medio o premium.
 
+# Ejercicio 6
 
+## Descripción del Ejercicio
+
+El gobierno nacional lo contrata para desarrollar el software que mantiene datos demográficos de la argentina. Los datos son cargados a nivel ciudad, es decir una ciudad tienen un numero de habitantes y se encuentra en un departamento, a la vez el departamento se encuentra en una provincia.
+Argentina no cuenta con más de 23 provincias y la población puede ser calculada como la suma de la población de las provincias.
+La población de las provincias es la suma de la población de los departamentos.
+La población de los departamentos es la suma de la población de las ciudades.
+
+# Ejercicio 7
+
+## Descripción del Ejercicio
+
+Es necesario representar una estructura de datos en formato Json. JSON, acrónimo de JavaScript Object Notation, es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notación literal de objetos de JavaScript aunque hoy, debido a su amplia adopción como alternativa a XML, se considera un formato de lenguaje independiente.
+
+Los elementos en json pueden ser:
+    • Los objetos en notación json comienzan con { y terminan con } y pueden tener atributos y sus valores (los valores pueden ser otro elemento json) puede contener n atributos.
+    • Los arreglos en json comienzan con [ y terminan con ], pueden contener n elementos json separados por coma.
+    • Un valor que es un string.
+      
+Se debe poder modelar una estructura en json e imprimirlo de manera correcta.
+
+Un ejemplo de una estructura en json:
+{“company” : “Example” ,
+"employees":[
+{"firstName":"John", "lastName":"Doe"},
+{"firstName":"Anna", "lastName":"Smith"},
+{"firstName":"Peter", "lastName":"Jones"}
+]}
