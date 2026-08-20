@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Main {
 
-
 	public static void main(String[] args) {
 		
 		// Construyo los Objetos
@@ -15,13 +14,12 @@ public class Main {
 		Edificio unEdificio  = new Edificio(150000.00, cal.getTime());
 		Rodado unRodado = new Rodado(12000.00, 1000);
 		Terreno unTerreno = new Terreno(600000.00, "Los colibies 234");
-		
-		
+
 		List<Amortizable> list = new ArrayList<>();
 		
 		list.add(unEdificio);
 		list.add(unRodado);
-	    //list.add(unTerreno);
+	  //  list.add(unTerreno);
 		
 		System.out.println();
 		System.out.println("Calcular Amortizacion");
