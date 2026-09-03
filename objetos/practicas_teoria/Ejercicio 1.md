@@ -64,3 +64,18 @@ Un ejemplo de una estructura en json:
  ]}  
  ```
  
+# Ejercicio 7
+
+## Descripción del Ejercicio
+
+La empresa vende.sa, con el objetivo de premiar a los buenos vendedores, lo contrata para desarrollar su sistema de puntajes. La empresa otorga un conjunto de puntos a sus vendedores por las ventas realizadas. Estos puntos se van acumulando y se traducen en un premio monetario a fin de mes. Las categorías de vendedores son las siguientes : 
+
+    • Vendedor junior (de 0 a 100 puntos) no tiene beneficios. 
+    • Vendedor semisenior  (de 101 a 500 puntos) tiene un premio de 2000 pesos. 
+    • Vendedor senior (de 501 puntos en adelante) tiene un premio de 2000 pesos más el 1% de sus ventas realizadas.
+
+La información del vendedor es número, nombre, cantidad de puntos y ventas realizadas en pesos. 
+
+a)  Realice el diseño de la solución e implemente las clases que permitan, dado un número de vendedor, saber cuánto premio tiene. 
+b)  Realice una funcionalidad que permita agregar puntos a un vendedor y, si corresponde, cambiar de categoría. 
+c) Imprima por pantalla todos los vendedores y su premio.
