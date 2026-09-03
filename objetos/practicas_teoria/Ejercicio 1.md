@@ -64,9 +64,9 @@ Un ejemplo de una estructura en json:
  ]}  
  ```
  
-# Ejercicio 7
+**Ejercicio 8**  
 
-## Descripción del Ejercicio
+**Descripción del Ejercicio** 
 
 La empresa vende.sa, con el objetivo de premiar a los buenos vendedores, lo contrata para desarrollar su sistema de puntajes. La empresa otorga un conjunto de puntos a sus vendedores por las ventas realizadas. Estos puntos se van acumulando y se traducen en un premio monetario a fin de mes. Las categorías de vendedores son las siguientes : 
 
